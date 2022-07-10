@@ -1,0 +1,65 @@
+@import '../../App.css';
+
+.sortBar {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.path {
+    padding: 10px;
+    height: 25%;
+    width: 100vw;
+    justify-content: flex-start;
+    font-size: 13px;
+    color: #777777;
+}
+
+.categoryName {
+    padding: 10px;
+    height: fit-content;
+    width: 100vw;
+    justify-content: flex-start;
+    font-size: 25px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.filters {
+    width: 100vw;
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+.filterBtn {
+    background-color: rgb(52,156,202);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    color: #F6EEE8;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.filterResults {
+    padding-left: 20px;
+    font-weight: 400;
+    color: var(--main-text-color);
+}
+
+#sort {
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    background-color: rgb(250,250,250);
+    font-size: 15px;
+    color: rgb(102,102,102);
+    border: 1px solid rgb(221,221,221)
+}
